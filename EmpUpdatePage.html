@@ -1,0 +1,61 @@
+<HTML>
+<HEAD>
+<TITLE>Infojet Employee Application </TITLE>
+<LINK href="Application.css" rel="stylesheet" type="text/css">
+<SCRIPT LANGUAGE="JavaScript" src="Employee.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" src="Validations.js"></SCRIPT>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<form method="post" action="EmpUpdateSearch.html">
+<!--<iframe id="myIframe" src="">
+</iframe>
+-->
+<table BORDER="1" align="center" width="70%">
+<TR>
+	<TD align="center" class="tdbkgnd" colspan=4 >Infojet Employee Insert Screen </TD>
+</TR>
+<TR>
+	<TD align="left" nowrap colspan=4>Please fill the following details and click on Update Employee button.&nbsp;
+	&nbsp;&nbsp;<a href="EmployeeDetPage.html"> Go to Employee Details Page </a>
+	</TD>
+</TR>
+<TR>
+	<TD > &nbsp;<LABEL> Employee ID:</LABEL></TD>
+	<TD>&nbsp;<INPUT TYPE="text" NAME="empId" size="9" maxlength="9" readonly value="123412345" ></TD>
+	<TD > &nbsp;<LABEL> Employee Department :</LABEL></TD>
+	<TD > <select name="dept">
+		  <option value="0"> Electronics </Option>
+		  <option value="1"> Information </Option>
+		  <option value="2"> Bio - Technology </Option>
+		  <option value="3"> Mechanical</Option>
+		  <option value="4"> AeroSpacetion>
+		 </SELECT>
+	</TD>
+</TR>
+<TR>
+	<TD > &nbsp;<LABEL> Employee Name:</LABEL></TD>
+	<TD>&nbsp;<INPUT TYPE="text" NAME="empname" size="15" maxlength="30" value="Sample Employee" ></TD>
+	<TD > &nbsp;<LABEL> Employee Address :</LABEL></TD>
+	<TD > &nbsp;<INPUT TYPE="text" NAME="empaddress" size="15" maxlength="30" value="North Street" ></TD>
+</TR>
+<TR>
+	<TD >&nbsp; <LABEL> City :</LABEL></TD>
+	<TD>&nbsp;<INPUT TYPE="text" NAME="city" size="15" maxlength="30" value="Chennai" ></TD>
+	<TD >&nbsp; <LABEL> State :</LABEL></TD>
+	<TD > &nbsp;<INPUT TYPE="text" NAME="state" size="15" maxlength="30" value="Tamilnadu" ></TD>
+</TR>
+<TR>
+	<TD >&nbsp; <LABEL> Home Phone No :</LABEL></TD>
+	<TD>&nbsp;<INPUT TYPE="text" NAME="city" size="15" maxlength="30" value="1234567890" ></TD>
+	<TD >&nbsp; <LABEL> Mobile No :</LABEL></TD>
+	<TD > &nbsp;<INPUT TYPE="text" NAME="state" size="15" maxlength="30" value="2323237112" ></TD>
+</TR>
+<TR>
+	<TD colspan="4" align="center">
+	<INPUT TYPE="submit" name="btnLogin" VALUE="Back" >
+	<INPUT TYPE="button" name="btnLogin" VALUE="Update Employee" onclick="addEmployee()"> </TD>
+</TR>
+<TR><TD colspan=4 nowrap><SCRIPT TYPE="text/javascript" SRC="copyright.js"></SCRIPT></TD> </TR>
+</BODY>
+</form>
+</HTML>

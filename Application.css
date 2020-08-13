@@ -1,0 +1,21 @@
+//body { background:blue; color:#ffffff }
+h1 { background:#000000; color:red }
+em { background:#000000; color:blue }
+.bluecolor { color:blue; background:#000000 }
+.tdbkgnd { color:white; background:red }
+.copyright
+{
+  COLOR: #ffffff;
+  FONT-FAMILY: Arial, Helvetica, Verdana;
+  FONT-SIZE: 8pt;
+  FONT-STYLE: none;
+  TEXT-DECORATION: none;
+}
+
+A:link { color: red; background:#000000 }
+A:visited { color: blue; background:#000000 }
+A:hover { color: green; background:#000000 }
+A:active { color: lime; background:#000000 }
+
+table { border: yellow solid 7px; background:#000000; color:#ffffff }
+//td { background:#000000; text-align:left; font-style:italic; color:yellow; padding-left:15px }
